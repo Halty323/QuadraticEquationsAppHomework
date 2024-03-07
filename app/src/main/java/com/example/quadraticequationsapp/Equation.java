@@ -5,7 +5,7 @@ public class Equation {
     private int x1;
     private int x2;
     public Equation() {}
-    // Эта функция генерирует такие квадратные уравнения, которые всегда будут иметь целые решения которые мы сами задаем как p и q
+    // Эта функция генерирует такие квадратные уравнения, которые всегда будут иметь целые решения которые мы сами задаем как x1 и x2
     public void generateEquation(int a, int x1, int x2) {
         this.x1 = x1;
         this.x2 = x2;
